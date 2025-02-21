@@ -808,6 +808,8 @@
 		HERERasterTilev3: {
 			/*
 			 * Limited support of HERE Raster Tile v3 API
+       *
+       * List of available styles from: https://maps.hereapi.com/v3/info?apiKey=
 			 */
 			url: 'https://maps.hereapi.com/v3/base/mc/{z}/{x}/{y}/png8?style={style}&apiKey={apiKey}',
 			options: {
