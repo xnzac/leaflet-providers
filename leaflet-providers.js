@@ -819,8 +819,6 @@
 				Explore: { style: 'explore.day' },
 				Satellite: { style: 'satellite.day' }
 			}
-		}
-
 		},
 		FreeMapSK: {
 			url: 'https://{s}.freemap.sk/T/{z}/{x}/{y}.jpeg',
