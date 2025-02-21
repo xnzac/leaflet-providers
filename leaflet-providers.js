@@ -817,8 +817,8 @@
 					'Map &copy; 1987-' + new Date().getFullYear() + ' <a href="http://developer.here.com">HERE</a>',
 			},
 			variants: {
-				Explore: { style: 'explore.day' },
-				Satellite: { style: 'satellite.day' }
+				exploreDay: { style: 'explore.day' },
+				satelliteDay: { style: 'satellite.day' }
 			}
 		},
 		FreeMapSK: {
