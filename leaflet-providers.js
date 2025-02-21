@@ -813,7 +813,8 @@
 			options: {
 				style: 'explore.day',
 				apiKey: 'your_here_api_key',
-				attribution: 'HERE © 2025'
+				attribution:
+					'Map &copy; 1987-' + new Date().getFullYear() + ' <a href="http://developer.here.com">HERE</a>',
 			},
 			variants: {
 				Explore: { style: 'explore.day' },
