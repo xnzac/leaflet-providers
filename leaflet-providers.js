@@ -805,6 +805,23 @@
 				}
 			}
 		},
+		HERERasterTilev3: {
+			/*
+			 * Limited support of HERE Raster Tile v3 API
+			 */
+			url: 'https://maps.hereapi.com/v3/base/mc/{z}/{x}/{y}/png8?style={style}&apiKey={apiKey}',
+			options: {
+				style: 'explore.day',
+				apiKey: 'your_here_api_key',
+				attribution: 'HERE © 2025'
+			},
+			variants: {
+				Explore: { style: 'explore.day' },
+				Satellite: { style: 'satellite.day' }
+			}
+		}
+
+		},
 		FreeMapSK: {
 			url: 'https://{s}.freemap.sk/T/{z}/{x}/{y}.jpeg',
 			options: {
